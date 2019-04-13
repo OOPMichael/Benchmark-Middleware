@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\BenchmarkMiddleWare\BenchmarkMiddleWare.csproj" />
+    <ProjectReference Include="..\BenchmarkMiddleWare\BenchmarkMiddleWare.csproj" />
   </ItemGroup>
 
 </Project>
