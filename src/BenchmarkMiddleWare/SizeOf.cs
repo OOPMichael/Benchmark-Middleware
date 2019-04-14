@@ -1,8 +1,8 @@
-﻿using System;
+﻿using BenchmarkMiddleWare.Interfaces;
 
 namespace BenchmarkMiddleWare
 {
-    public class SizeOf
+    public class SizeOf : ISizeOf
     {
         public int SizeofPayload(string responseBody)
         {
