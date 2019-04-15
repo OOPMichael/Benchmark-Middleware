@@ -1,9 +1,10 @@
-﻿using System;
+﻿using BenchmarkMiddleWare.Interfaces;
 
 namespace BenchmarkMiddleWare
 {
-    public class SizeOf
+    public class SizeOf : ISizeOf
     {
+        //TODO: does this handle multiple encodings?
         public int SizeofPayload(string responseBody)
         {
             if (responseBody == null)
