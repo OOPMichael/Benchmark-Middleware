@@ -2,6 +2,7 @@
 
 namespace BenchmarkMiddleWare
 {
+    //TODO rename this to anything besides sizeof
     public class SizeOf : ISizeOf
     {
         //TODO: does this handle multiple encodings?
