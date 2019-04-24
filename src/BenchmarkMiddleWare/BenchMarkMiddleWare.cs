@@ -5,8 +5,7 @@ using System.Threading.Tasks;
 
 namespace BenchmarkMiddleWare
 {
-    //TODO: how do i unit test this if theree is no IRequestDelegate?
-    public class BenchMarkMiddleWare
+    public class BenchMarkMiddleWare : IBenchMarkMiddleWare
     {
         private readonly ISizeOf _sizeof;
         private readonly RequestDelegate _next;
